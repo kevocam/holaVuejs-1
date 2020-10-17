@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;1,600&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Hola Vuejs</h1>
+        <label for="">Mi nombre es:</label>
+        <input v-model="nombre" type="text">
+        <p>Hola {{nombre}}, ésta es una app en Vuejs. </p>
+        <label for="">Nací en el año:</label>
+        <input v-model="edad" type="number">
+        <p>{{saludoEdad}}</p>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="app.js"></script>
+
+</body>
+</html>
